@@ -87,8 +87,6 @@
             "total": "Сумарно",
             "dailyAverage": "В середньому за добу",
             "bestWorkday": "Кращий результат",
-            "victoryBarName": "ім'я",
-            "victoryBarHours": "годин",
             "todayLog": "Сьогоднi",
             "lodadingLogStats": "Завантаження статистики"
         }

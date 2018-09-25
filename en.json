@@ -110,6 +110,13 @@
                 "done": "Complete Task",
                 "favorite": "Add/Remove Favorite",
                 "edit": "Edit Task"
+            },
+            "swipeActionsName": {
+                "startTimer": "Start Timer",
+                "done": "Complete Task",
+                "addToFavorite": "Favorite",
+                "removeFromFavorite": "Unfavorite",
+                "edit": "Edit Task"
             }
         },
         "timerScreen": {
