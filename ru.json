@@ -110,6 +110,13 @@
                 "done": "Завершить задачу",
                 "favorite": "Добавить в избранное",
                 "edit": "Редактировать задачу"
+            },
+            "swipeActionsName": {
+                "startTimer": "Запустить таймер",
+                "done": "Завершить задачу",
+                "addToFavorite": "В избранное",
+                "removeFromFavorite": "Из избранного",
+                "edit": "Редактировать задачу"
             }
         },
         "timerScreen": {
@@ -141,8 +148,6 @@
             "total": "Суммарно",
             "dailyAverage": "В среднем за сутки",
             "bestWorkday": "Лучший результат",
-            "victoryBarName": "имя",
-            "victoryBarHours": "часов",
             "todayLog": "Сегодня",
             "loadingLogStats": "Загрузка статистики",
             "noTimeTracked": "Нет данных для отображения"
