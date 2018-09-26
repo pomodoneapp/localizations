@@ -2,10 +2,6 @@
     "label": "Русский",
     "locale": "ru",
     "translations": {
-        "main": {
-            "enabled": "Включено",
-            "disabled": "Выключено"
-        },
         "common": {
             "date": {
                 "shortYear": "г",
@@ -29,6 +25,12 @@
             "app": {
                 "pomodoros": "помодороc",
                 "entries": "записей"
+            }
+        },
+        "components": {
+            "checkbox": {
+                "enabled": "Включено",
+                "disabled": "Выключено"
             }
         },
         "loginScreen": {
@@ -80,8 +82,6 @@
             "breakCustom": "Установить пользовательскую длительность перерыва",
             "timerBreakDisable": "Неактивен",
             "breakEnd": "Конец перерыва",
-            "enabled": "Активен",
-            "disabled": "Неактивен",
             "browser": "Браузер",
             "breakOptions": "Настройка перерыва",
             "theme": "Тёмная тема",
