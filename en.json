@@ -2,10 +2,6 @@
     "label": "English",
     "locale": "en",
     "translations": {
-        "main": {
-            "enabled": "Enabled",
-            "disabled": "Disabled"
-        },
         "common": {
             "date": {
                 "shortYear": "y",
@@ -29,6 +25,12 @@
             "app": {
                 "pomodoros": "pomodoros",
                 "entries": "entries"
+            }
+        },
+        "components": {
+            "checkbox": {
+                "enabled": "Enabled",
+                "disabled": "Disabled"
             }
         },
         "loginScreen": {
