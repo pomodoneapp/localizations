@@ -142,7 +142,7 @@
         "statScreen": {
             "currentStats": "Current stats",
             "noInternetMessage": "No internet connection",
-            "recomendMessage": "Please go to online to see Stat & Log",
+            "recomendMessage": "Please go online to see Stats & Log",
             "halfLast": "Last ",
             "halfDay": " Days",
             "total": "Total",
