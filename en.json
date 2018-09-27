@@ -2,6 +2,9 @@
     "label": "English",
     "locale": "en",
     "translations": {
+        "app": {
+            "name": "PomoDoneApp"
+        },
         "common": {
             "date": {
                 "shortYear": "y",
@@ -21,10 +24,6 @@
                     "saturday": "Saturday",
                     "sunday": "Sunday"
                 }
-            },
-            "app": {
-                "pomodoros": "pomodoros",
-                "entries": "entries"
             }
         },
         "components": {
@@ -41,7 +40,7 @@
             "singInHeaderLabel": "Sign in"
         },
         "authScreen": {
-            "headerAppName": "PomoDoneApp",
+            "headerAppName": "$t(app:name)",
             "signInLabel": "Sign in",
             "registerLabel": "Register",
             "regSuccessMessage": "Registration successful",
@@ -51,7 +50,7 @@
             "registerHeaderLabel": "Register",
             "emailLabel": "Email",
             "registerButton": "Register",
-            "headerAppName": "PomoDoneApp",
+            "headerAppName": "$t(app:name)",
             "partAccept": "I've read and accept",
             "partPolicy": "Privacy Policy",
             "partAnd": "and",
@@ -80,7 +79,6 @@
             "sounds": "Sounds",
             "soundsTitle": "Sounds",
             "breakCustom": "Set custom breaks durations",
-            "timerBreakDisable": "disabled",
             "breakEnd": "End of break",
             "enabled": "Enabled",
             "disabled": "Disabled",
@@ -145,14 +143,17 @@
             "currentStats": "Current stats",
             "noInternetMessage": "No internet connection",
             "recomendMessage": "Please go online to see Stats & Log",
-            "halfLast": "Last ",
-            "halfDay": " Days",
+            "lastDays": "Last {{count}} Days",
             "total": "Total",
             "dailyAverage": "Daily average",
             "bestWorkday": "Best workday",
             "todayLog": "Today log",
             "loadingLogStats": "Loading Log & Stats",
-            "noTimeTracked": "No time tracked"
+            "noTimeTracked": "No time tracked",
+            "pomodoro": "pomodoro",
+            "pomodoro_plural": "pomodoros",
+            "entries": "entry",
+            "entries_plural": "entries"
         },
         "controlItem": {
             "saveButton": "Save",
@@ -173,18 +174,17 @@
             "noItem": "No item",
             "anotherSource": "Please select another source of items...",
             "emptySearchResult": "Empty search result",
-            "halfYourSearch": "Your search",
-            "halfDidNotMatch": " did not match any items",
+            "emptySearchResultDescription": "Your search – {{query}} did not match any items",
             "trySearchAnything": "Try search anything",
             "search": "Search"
         },
         "screenAboutItem": {
             "about": "About",
-            "appDescription": "PomoDone App is a Personal Productivity Management Solution, empowering users to regain control over their time and tasks.",
+            "appDescription": "$t(app:name) is a Personal Productivity Management Solution, empowering users to regain control over their time and tasks.",
             "createdBy": "App created by UAB Pomodonė, Vilnius, Lithuania.",
             "appYear": "2018 © Pomodonė UAB",
-            "appName": "PomoDoneApp",
-            "aboutPomodone": "About PomoDone App",
+            "appName": "$t(app:name)",
+            "aboutPomodone": "About $t(app:name)",
             "faq": "F.A.Q.",
             "feedback": "Feedback"
         },
