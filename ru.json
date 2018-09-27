@@ -2,6 +2,9 @@
     "label": "Русский",
     "locale": "ru",
     "translations": {
+        "app": {
+            "name": "PomoDoneApp"
+        },
         "common": {
             "date": {
                 "shortYear": "г",
@@ -21,10 +24,6 @@
                     "saturday": "Суббота",
                     "sunday": "Воскресенье"
                 }
-            },
-            "app": {
-                "pomodoros": "помодороc",
-                "entries": "записей"
             }
         },
         "components": {
@@ -41,7 +40,7 @@
             "singInHeaderLabel": "Вход"
         },
         "authScreen": {
-            "headerAppName": "PomoDoneApp",
+            "headerAppName": "$t(app:name)",
             "signInLabel": "Вход",
             "registerLabel": "Регистрация",
             "regSuccessMessage": "Регистрация прошла успешно.",
@@ -51,7 +50,7 @@
             "registerHeaderLabel": "Регистрация",
             "emailLabel": "Адресс электронной почты",
             "registerButton": "Регистрация",
-            "headerAppName": "PomoDoneApp",
+            "headerAppName": "$t(app:name)",
             "partAccept": "Я прочитал и согласен с",
             "partPolicy": "Политикой конфиденциальности",
             "partAnd": "и",
@@ -79,8 +78,7 @@
             "notificationsTitle": "Уведомления",
             "sounds": "Звуки",
             "soundsTitle": "Звуки",
-            "breakCustom": "Установить пользовательскую длительность перерыва",
-            "timerBreakDisable": "Неактивен",
+            "breakCustom": "Длительность перерыва",
             "breakEnd": "Конец перерыва",
             "browser": "Браузер",
             "breakOptions": "Настройка перерыва",
@@ -143,14 +141,19 @@
             "currentStats": "Текущая статистика",
             "noInternetMessage": "Отсутствует интернет соединение",
             "recomendMessage": "Пожалуйста, подключитесь к интеренту, чтобы посмотреть журнал и статистику",
-            "halfLast": "За последние ",
-            "halfDay": " дней",
+            "lastDays": "За последние {{count}} дней",
             "total": "Суммарно",
             "dailyAverage": "В среднем за сутки",
             "bestWorkday": "Лучший результат",
             "todayLog": "Сегодня",
             "loadingLogStats": "Загрузка статистики",
-            "noTimeTracked": "Нет данных для отображения"
+            "noTimeTracked": "Нет данных для отображения",
+            "pomodoro_0": "помидоров",
+            "pomodoro_1": "помидор",
+            "pomodoro_2": "помидора",
+            "entries_0": "записей",
+            "entries_1": "запись",
+            "entries_2": "записи"
         },
         "controlItem": {
             "saveButton": "Сохранить",
@@ -171,18 +174,17 @@
             "noItem": "Пусто",
             "anotherSource": "Пожалуйста, поищите в другом месте...",
             "emptySearchResult": "Ничего не найдено",
-            "halfYourSearch": "По вашему запросу",
-            "halfDidNotMatch": " ничего не найдено.",
-            "trySearchAnything": "Попробуйте что-нибудь найти",
+            "emptySearchResultDescription": "По вашему запросу – {{query}} ничего не найдено.",
+            "trySearchAnything": "Поищите что-нибудь",
             "search": "Поиск"
         },
         "screenAboutItem": {
             "about": "О нас",
-            "appDescription": "PomoDone App - это лучшее решение для распределения вашего времени и увеличения собственной продуктивности.",
+            "appDescription": "$t(app:name) - это лучшее решение для распределения вашего времени и увеличения собственной продуктивности.",
             "createdBy": "Приложение создано UAB Pomodonė, Vilnius, Lithuania.",
             "appYear": "2018 © Pomodonė UAB",
-            "appName": "PomoDoneApp",
-            "aboutPomodone": "О PomoDone App",
+            "appName": "$t(app:name)",
+            "aboutPomodone": "О $t(app:name)",
             "faq": "F.A.Q.",
             "feedback": "Обратная связь"
         },
