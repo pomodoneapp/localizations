@@ -148,9 +148,13 @@
             "todayLog": "Сегодня",
             "loadingLogStats": "Загрузка статистики",
             "noTimeTracked": "Нет данных для отображения",
+            "pomodoro": "помидор",
+            "pomodoro_plural": "помидоров",
             "pomodoro_0": "помидоров",
             "pomodoro_1": "помидор",
             "pomodoro_2": "помидора",
+            "entries": "запись",
+            "entries_plural": "записей",
             "entries_0": "записей",
             "entries_1": "запись",
             "entries_2": "записи"
