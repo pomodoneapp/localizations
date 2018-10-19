@@ -80,8 +80,6 @@
             "soundsTitle": "Sounds",
             "breakCustom": "Set custom breaks durations",
             "breakEnd": "End of break",
-            "enabled": "Enabled",
-            "disabled": "Disabled",
             "browser": "Browser",
             "breakOptions": "Break Options",
             "theme": "Dark theme",
