@@ -150,8 +150,14 @@
             "noTimeTracked": "No time tracked",
             "pomodoro": "pomodoro",
             "pomodoro_plural": "pomodoros",
+            "pomodoro_0": "pomodoros",
+            "pomodoro_1": "pomodoros",
+            "pomodoro_2": "pomodoros",
             "entries": "entry",
-            "entries_plural": "entries"
+            "entries_plural": "entries",
+            "entries_0": "entries",
+            "entries_1": "entries",
+            "entries_2": "entries"
         },
         "controlItem": {
             "saveButton": "Save",
