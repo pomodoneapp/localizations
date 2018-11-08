@@ -190,7 +190,9 @@
             "appName": "$t(app:name)",
             "aboutPomodone": "О $t(app:name)",
             "faq": "F.A.Q.",
-            "feedback": "Обратная связь"
+            "feedback": "Обратная связь",
+            "privacyPolicyLinkText": "Политика конфиденциальности",
+            "tosLinkText": "Правила Пользования"
         },
         "screenIntroItem": {
             "skip": "Пропустить",
