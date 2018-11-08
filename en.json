@@ -190,7 +190,9 @@
             "appName": "$t(app:name)",
             "aboutPomodone": "About $t(app:name)",
             "faq": "F.A.Q.",
-            "feedback": "Feedback"
+            "feedback": "Feedback",
+            "privacyPolicyLinkText": "Privacy Policy",
+            "tosLinkText": "Terms of Service"
         },
         "screenIntroItem": {
             "skip": "Skip",
