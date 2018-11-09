@@ -70,10 +70,8 @@
             "settingMenuTitle": "Расширенные настройки",
             "timerEnd": "Конец таймера",
             "timerOption": "Настройка таймера",
-            "timerLength": "Длительность таймера",
             "timer": "Таймер",
             "break": "Перерыв",
-            "breakLength": "Остановить таймер",
             "notifications": "Уведомления",
             "notificationsTitle": "Уведомления",
             "sounds": "Звуки",
@@ -121,7 +119,10 @@
             "screenMessage": "Экран активен.",
             "screenSleepMessage": "Экран в режиме сна.",
             "iconMessage": "Приятного отдыха.",
-            "breakMessage": "Перерыв заканчивается через:"
+            "breakMessage": "Перерыв заканчивается через:",
+            "timerSectionOptions": "Таймеры",
+            "breakSectionOptions": "Перерывы",
+            "autoStartOption": "Авто старт"
         },
         "editScreenForm": {
             "titleField": "Название",
