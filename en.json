@@ -70,10 +70,8 @@
             "settingMenuTitle": "Advanced Settings",
             "timerEnd": "End of timer",
             "timerOption": "Timer options",
-            "timerLength": "Timers lengths",
             "timer": "Timer",
             "break": "Break",
-            "breakLength": "Break length",
             "notifications": "Notifications",
             "notificationsTitle": "Notifications",
             "sounds": "Sounds",
@@ -121,7 +119,10 @@
             "screenMessage": "Screen is kept on",
             "screenSleepMessage": "Screen is allowed to sleep",
             "iconMessage": "Enjoy your break",
-            "breakMessage": "Break ends in:"
+            "breakMessage": "Break ends in:",
+            "timerSectionOptions": "Timers",
+            "breakSectionOptions": "Breaks",
+            "autoStartOption": "Auto start"
         },
         "editScreenForm": {
             "titleField": "Title",
