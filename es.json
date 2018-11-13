@@ -44,7 +44,7 @@
       "signInLabel": "Iniciar sesi\u00f3n",
       "registerLabel": "Registrarse",
       "regSuccessMessage": "Registro completado",
-      "confirmMessage": "\"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b. \u0414\u043b\u044f \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438"
+      "confirmMessage": "Necesitamos confirmar tu correo electr\u00f3nico. Para completar tu registro, haz clic en el enlace que ver\u00e1s en el correo que acabamos de enviarte."
     },
     "registerScreen": {
       "registerHeaderLabel": "Registrarse",
@@ -141,7 +141,7 @@
     "statScreen": {
       "currentStats": "Estado actual",
       "noInternetMessage": "No hay conexi\u00f3n a Internet",
-      "recomendMessage": " \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u0435\u0441\u044c \u043a \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443",
+      "recomendMessage": "Con\u00e9ctate para ver Estad\u00edsticas y Registro",
       "lastDays": "\u00daltimos {{count}} d\u00edas",
       "total": "Total",
       "dailyAverage": "Media diaria",
@@ -177,7 +177,7 @@
     },
     "dashboardItemScreen": {
       "noItem": "No hay art\u00edculo",
-      "anotherSource": " \u043f\u043e\u0438\u0449\u0438\u0442\u0435 \u0432 \u0434\u0440\u0443\u0433\u043e\u043c \u043c\u0435\u0441\u0442\u0435...\"",
+      "anotherSource": "Selecciona otra fuente de art\u00edculos...",
       "emptySearchResult": "Resultado de b\u00fasqueda vac\u00edo",
       "emptySearchResultDescription": "Tu b\u00fasqueda \u2013 {{query}} no coincide con ning\u00fan art\u00edculo",
       "trySearchAnything": "Intenta buscar algo",
@@ -185,8 +185,8 @@
     },
     "screenAboutItem": {
       "about": "Acerca de",
-      "appDescription": "$t(app:name) - \u044d\u0442\u043e \u043b\u0443\u0447\u0448\u0435\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0432\u0430\u0448\u0435\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0438 \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u044f \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438.",
-      "createdBy": " Lithuania.\"",
+      "appDescription": "$t(app:name) es una soluci\u00f3n de gesti\u00f3n de productividad personal que permite a los usuarios recuperar el control de su tiempo y tareas.",
+      "createdBy": "Aplicaci\u00f3n creada por UAB Pomodon\u00e9, Vilna (Lituania).",
       "appYear": "2018 \u00a9 Pomodon\u0117 UAB",
       "appName": "$t(app:name)",
       "aboutPomodone": "Acerca de $t(app:name)",
@@ -212,9 +212,9 @@
       "durationMinute": "Duraci\u00f3n en minutos"
     },
     "batteryHelpScreen": {
-      "feature": " \u0447\u0442\u043e\u0431\u044b \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0438\u0442\u044c \u0444\u043e\u043d\u043e\u0432\u044b\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b \u043d\u0430 Android 6 \u0438 \u0432\u044b\u0448\u0435.\"",
-      "dozeState": "\"\u0415\u0441\u043b\u0438 \u0432\u044b \u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0432\u0430\u0448\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0431\u0435\u0437 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f",
-      "fix": "\"\u0427\u0442\u043e\u0431\u044b \u0440\u0435\u0448\u0438\u0442\u044c \u044d\u0442\u0443 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0443",
+      "feature": "Restringir servicios en un segundo plano en Android puede impedir que los temporizadores funcionen correctamente. La funci\u00f3n Doze se ha a\u00f1adido para restringir servicios en un segundo plano en Android 6 y versiones posteriores.",
+      "dozeState": "Cuando dejes de usar el dispositivo durante un tiempo, se pondr\u00e1 en estado Doze despu\u00e9s de un tiempo determinado y el uso de red tambi\u00e9n ser\u00e1 restringido.",
+      "fix": "Si quieres resolver el problema, debes apagar la opci\u00f3n de optimizaci\u00f3n de bater\u00eda. Consulta a continuaci\u00f3n el m\u00e9todo para cada dispositivo.",
       "openSettings": "Ajustes abiertos",
       "guide": "Gu\u00eda para dispositivos Android distintos"
     }
