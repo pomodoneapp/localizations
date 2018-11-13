@@ -1,0 +1,222 @@
+{
+  "label": "Spanish",
+  "locale": "es",
+  "translations": {
+    "app": {
+      "name": "PomoDoneApp"
+    },
+    "common": {
+      "date": {
+        "shortYear": "a",
+        "shortMonth": "me",
+        "shortWeek": "s",
+        "shortDay": "d",
+        "shortHour": "h",
+        "shortMin": "m",
+        "shortSec": "s",
+        "shortMilliSec": "ms",
+        "fullDays": {
+          "monday": "Lunes",
+          "tuesday": "Martes",
+          "wednesday": "Mi\u00e9rcoles",
+          "thursday": "Jueves",
+          "friday": "Viernes",
+          "saturday": "S\u00e1bado",
+          "sunday": "Domingo"
+        }
+      }
+    },
+    "components": {
+      "checkbox": {
+        "enabled": "Habilitada",
+        "disabled": "Inhabilitada"
+      }
+    },
+    "loginScreen": {
+      "loginButtonTitle": "Iniciar sesi\u00f3n",
+      "passwordLabel": "Contrase\u00f1a",
+      "snackBarTitle": "Conectado",
+      "emailLabel": "Correo electr\u00f3nico",
+      "singInHeaderLabel": "Iniciar sesi\u00f3n"
+    },
+    "authScreen": {
+      "headerAppName": "$t(app:name)",
+      "signInLabel": "Iniciar sesi\u00f3n",
+      "registerLabel": "Registrarse",
+      "regSuccessMessage": "Registro completado",
+      "confirmMessage": "\"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b. \u0414\u043b\u044f \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438"
+    },
+    "registerScreen": {
+      "registerHeaderLabel": "Registrarse",
+      "emailLabel": "Correo electr\u00f3nico",
+      "registerButton": "Registrarse",
+      "headerAppName": "$t(app:name)",
+      "partAccept": "He le\u00eddo y acepto la",
+      "partPolicy": "Pol\u00edtica de privacidad",
+      "partAnd": "y las",
+      "partTerms": "Condiciones del servicio"
+    },
+    "dashboardScreen": {
+      "title": "Servicios",
+      "cancelButton": "Cancelar",
+      "doneSwitchButton": "Hecho y cambiar",
+      "switchButton": "Cambiar",
+      "timerMessage": "Tienes un temporizador en marcha",
+      "timerRunMessage": "Deseas cambiar a esta tarea"
+    },
+    "settingsScreen": {
+      "title": "Ajustes",
+      "settingMenu": "Ajustes avanzados",
+      "settingMenuTitle": "Ajustes avanzados",
+      "timerEnd": "Fin del temporizador",
+      "timerOption": "Opciones del temporizador",
+      "timer": "Temporizador",
+      "break": "Pausa",
+      "notifications": "Avisos",
+      "notificationsTitle": "Avisos",
+      "sounds": "Sonidos",
+      "soundsTitle": "Sonidos",
+      "breakCustom": "Ajustar duraciones de pausas personalizadas",
+      "breakEnd": "Fin de pausa",
+      "browser": "Navegador",
+      "breakOptions": "Opciones de pausa",
+      "theme": "Tema oscuro",
+      "detectBattery": "Detectar optimizaci\u00f3n de bater\u00eda",
+      "timerOptionSet": "Establecer opciones de temporizador",
+      "timerStopNotification": "Aviso de detenci\u00f3n del temporizador",
+      "breakStopNotification": "Aviso de detenci\u00f3n de pausa",
+      "timerFinish": "Fin del temporizador",
+      "startBreakAlert": "Alerta inicio de pausa",
+      "endBreakAlert": "Alerta fin de pausa",
+      "timerLoop": "Loop de temporizador",
+      "breakLoop": "Loop de pausa",
+      "detectBatteryOptimization": "Detectar optimizaci\u00f3n de bater\u00eda",
+      "openExternalLinks": "Abrir enlaces externos en...",
+      "language": "Idioma",
+      "selectLanguage": "Seleccionar idioma",
+      "swipesSettingsHeadline": "Arrastres",
+      "leftSwipeAction": "Acci\u00f3n de arrastrar a la izquierda",
+      "rightSwipeAction": "Acci\u00f3n de arrastrar a la derecha",
+      "leftSwipe": "Arrastre a la izquierda",
+      "rightSwipe": "Arrastre a la derecha",
+      "min": "m\u00edn.",
+      "swipeActions": {
+        "none": "Ninguno",
+        "startTimer": "Iniciar temporizador",
+        "done": "Completar tarea",
+        "favorite": "A\u00f1adir\/Quitar favorito",
+        "edit": "Editar tarea"
+      },
+      "swipeActionsName": {
+        "startTimer": "Iniciar temporizador",
+        "done": "Completar tarea",
+        "addToFavorite": "Favorito",
+        "removeFromFavorite": "No favorito",
+        "edit": "Editar tarea"
+      }
+    },
+    "timerScreen": {
+      "screenMessage": "La pantalla est\u00e1 encendida",
+      "screenSleepMessage": "Se puede poner la pantalla en reposo",
+      "iconMessage": "Disfruta tu pausa",
+      "breakMessage": "La pausa finaliza en:",
+      "timerSectionOptions": "Temporizadores",
+      "breakSectionOptions": "Pausas",
+      "autoStartOption": "Inicio autom\u00e1tico"
+    },
+    "editScreenForm": {
+      "titleField": "T\u00edtulo",
+      "serviceField": "Servicio",
+      "projectField": "Proyecto",
+      "listField": "Lista",
+      "assignField": "Asignar a",
+      "descriptionField": "Descripci\u00f3n",
+      "dateField": "Fecha de vencimiento",
+      "clearField": "Borrar",
+      "editTask": "Editar tarea",
+      "addDueDate": "A\u00f1adir fecha de vencimiento...",
+      "newItem": "Art\u00edculo nuevo",
+      "create": "Crear"
+    },
+    "statScreen": {
+      "currentStats": "Estado actual",
+      "noInternetMessage": "No hay conexi\u00f3n a Internet",
+      "recomendMessage": " \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u0435\u0441\u044c \u043a \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0443",
+      "lastDays": "\u00daltimos {{count}} d\u00edas",
+      "total": "Total",
+      "dailyAverage": "Media diaria",
+      "bestWorkday": "Mejor d\u00eda de trabajo",
+      "todayLog": "Registro de hoy",
+      "loadingLogStats": "Cargando Registro y Estad\u00edsticas",
+      "noTimeTracked": "No hay tiempo monitorizado",
+      "pomodoro": "pomodoro",
+      "pomodoro_plural": "pomodoros",
+      "pomodoro_0": "pomodoros",
+      "pomodoro_1": "pomodoros",
+      "pomodoro_2": "pomodoros",
+      "entries": "entrada",
+      "entries_plural": "entradas",
+      "entries_0": "entradas",
+      "entries_1": "entradas",
+      "entries_2": "entradas"
+    },
+    "controlItem": {
+      "saveButton": "Guardar",
+      "offline": "No est\u00e1s conectado"
+    },
+    "menuItem": {
+      "currentStats": "Estado actual",
+      "settings": "Ajustes",
+      "about": "Acerca de",
+      "detailedLog": "Registro detallado",
+      "connectedServices": "Servicios conectados",
+      "myProfile": "Mi perfil",
+      "feedback": "Comentarios",
+      "logOut": "Cerrar sesi\u00f3n",
+      "plan": "Plan"
+    },
+    "dashboardItemScreen": {
+      "noItem": "No hay art\u00edculo",
+      "anotherSource": " \u043f\u043e\u0438\u0449\u0438\u0442\u0435 \u0432 \u0434\u0440\u0443\u0433\u043e\u043c \u043c\u0435\u0441\u0442\u0435...\"",
+      "emptySearchResult": "Resultado de b\u00fasqueda vac\u00edo",
+      "emptySearchResultDescription": "Tu b\u00fasqueda \u2013 {{query}} no coincide con ning\u00fan art\u00edculo",
+      "trySearchAnything": "Intenta buscar algo",
+      "search": "Buscar"
+    },
+    "screenAboutItem": {
+      "about": "Acerca de",
+      "appDescription": "$t(app:name) - \u044d\u0442\u043e \u043b\u0443\u0447\u0448\u0435\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0432\u0430\u0448\u0435\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0438 \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u044f \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438.",
+      "createdBy": " Lithuania.\"",
+      "appYear": "2018 \u00a9 Pomodon\u0117 UAB",
+      "appName": "$t(app:name)",
+      "aboutPomodone": "Acerca de $t(app:name)",
+      "faq": "FAQ",
+      "feedback": "Comentarios",
+      "privacyPolicyLinkText": "Pol\u00edtica de privacidad",
+      "tosLinkText": "Condiciones del servicio"
+    },
+    "screenIntroItem": {
+      "skip": "Saltar",
+      "letGo": "\u00a1Vamos!",
+      "trackSmart": "Monitoriza de forma inteligente",
+      "accountTrack": "Conecta tu cuenta y empieza ya a monitorizar tiempo",
+      "onePlace": "En un sitio",
+      "favTask": "Selecciona tus tareas favoritas de diversas fuentes para acceder r\u00e1pidamente",
+      "beFlex": "S\u00e9 flexible",
+      "setCountdown": "Configura tus propios temporizadores de cuenta atr\u00e1s (en ajustes)",
+      "expelDistr": "Evita distracciones",
+      "slackMate": "Se puede avisar a tus amigos m\u00e1s vaguetes de tu volumen de trabajo"
+    },
+    "fullScreenTimer": {
+      "integerNumber": "Necesito un n\u00famero positivo entero...",
+      "durationMinute": "Duraci\u00f3n en minutos"
+    },
+    "batteryHelpScreen": {
+      "feature": " \u0447\u0442\u043e\u0431\u044b \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0438\u0442\u044c \u0444\u043e\u043d\u043e\u0432\u044b\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b \u043d\u0430 Android 6 \u0438 \u0432\u044b\u0448\u0435.\"",
+      "dozeState": "\"\u0415\u0441\u043b\u0438 \u0432\u044b \u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0432\u0430\u0448\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0431\u0435\u0437 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f",
+      "fix": "\"\u0427\u0442\u043e\u0431\u044b \u0440\u0435\u0448\u0438\u0442\u044c \u044d\u0442\u0443 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0443",
+      "openSettings": "Ajustes abiertos",
+      "guide": "Gu\u00eda para dispositivos Android distintos"
+    }
+  }
+}
