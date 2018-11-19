@@ -1,0 +1,222 @@
+{
+  "label": "Portuguese (BR)",
+  "locale": "pt",
+  "translations": {
+    "app": {
+      "name": "PomoDoneApp"
+    },
+    "common": {
+      "date": {
+        "shortYear": "a",
+        "shortMonth": "m",
+        "shortWeek": "s",
+        "shortDay": "d",
+        "shortHour": "h",
+        "shortMin": "m",
+        "shortSec": "s",
+        "shortMilliSec": "ms",
+        "fullDays": {
+          "monday": "Segunda-feira",
+          "tuesday": "Ter\u00e7a-feira",
+          "wednesday": "Quarta-feira",
+          "thursday": "Quinta-feira",
+          "friday": "Sexta-feira",
+          "saturday": "S\u00e1bado",
+          "sunday": "Domingo"
+        }
+      }
+    },
+    "components": {
+      "checkbox": {
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+      }
+    },
+    "loginScreen": {
+      "loginButtonTitle": "Entrar",
+      "passwordLabel": "Senha",
+      "snackBarTitle": "Conectado",
+      "emailLabel": "E-mail",
+      "singInHeaderLabel": "Entrar"
+    },
+    "authScreen": {
+      "headerAppName": "$t(app:name)",
+      "signInLabel": "Entrar",
+      "registerLabel": "Registrar-se",
+      "regSuccessMessage": "Registro bem-sucedido",
+      "confirmMessage": "Precisamos confirmar seu endere\u00e7o de e-mail. Para concluir seu registro, clique no link do e-mail que acabamos de enviar."
+    },
+    "registerScreen": {
+      "registerHeaderLabel": "Registrar-se",
+      "emailLabel": "E-mail",
+      "registerButton": "Registrar-se",
+      "headerAppName": "$t(app:name)",
+      "partAccept": "Eu li e aceito",
+      "partPolicy": "Pol\u00edtica de privacidade",
+      "partAnd": "e",
+      "partTerms": "Termos de servi\u00e7o"
+    },
+    "dashboardScreen": {
+      "title": "Servi\u00e7os",
+      "cancelButton": "Cancelar",
+      "doneSwitchButton": "Pronto e alternar",
+      "switchButton": "Alternar",
+      "timerMessage": "Voc\u00ea tem um temporizador em execu\u00e7\u00e3o",
+      "timerRunMessage": "Voc\u00ea quer alternar para esta tarefa"
+    },
+    "settingsScreen": {
+      "title": "Configura\u00e7\u00f5es",
+      "settingMenu": "Configura\u00e7\u00f5es avan\u00e7adas",
+      "settingMenuTitle": "Configura\u00e7\u00f5es avan\u00e7adas",
+      "timerEnd": "Fim do temporizador",
+      "timerOption": "Op\u00e7\u00f5es de temporizador",
+      "timer": "Temporizador",
+      "break": "Intervalo",
+      "notifications": "Notifica\u00e7\u00f5es",
+      "notificationsTitle": "Notifica\u00e7\u00f5es",
+      "sounds": "Sons",
+      "soundsTitle": "Sons",
+      "breakCustom": "Definir per\u00edodos de intervalo personalizados",
+      "breakEnd": "Fim do intervalo",
+      "browser": "Navegador",
+      "breakOptions": "Op\u00e7\u00f5es de intervalo",
+      "theme": "Tema escuro",
+      "detectBattery": "Detectar otimiza\u00e7\u00e3o da bateria",
+      "timerOptionSet": "Definir op\u00e7\u00f5es do temporizador",
+      "timerStopNotification": "Notifica\u00e7\u00e3o de parada do temporizador",
+      "breakStopNotification": "Notifica\u00e7\u00e3o de parada para intervalo",
+      "timerFinish": "Temporizador encerrado",
+      "startBreakAlert": "Alerta de in\u00edcio de intervalo",
+      "endBreakAlert": "Alerta de t\u00e9rmino de intervalo",
+      "timerLoop": "Loop do temporizador",
+      "breakLoop": "Loop de intervalo",
+      "detectBatteryOptimization": "Detectar otimiza\u00e7\u00e3o da bateria",
+      "openExternalLinks": "Abrir links externos em...",
+      "language": "Idioma",
+      "selectLanguage": "Selecionar idioma",
+      "swipesSettingsHeadline": "Deslizadas",
+      "leftSwipeAction": "A\u00e7\u00e3o de deslizar para a esquerda esquerda",
+      "rightSwipeAction": "A\u00e7\u00e3o de deslizar para a direita",
+      "leftSwipe": "Deslizar para a esquerda",
+      "rightSwipe": "Deslizar para a direita",
+      "min": "min",
+      "swipeActions": {
+        "none": "Nenhum",
+        "startTimer": "Iniciar temporizador",
+        "done": "Concluir tarefa",
+        "favorite": "Adicionar\/remover favoritos",
+        "edit": "Editar tarefa"
+      },
+      "swipeActionsName": {
+        "startTimer": "Iniciar temporizador",
+        "done": "Concluir tarefa",
+        "addToFavorite": "Adicionar aos favoritos",
+        "removeFromFavorite": "Remover dos favoritos",
+        "edit": "Editar tarefa"
+      }
+    },
+    "timerScreen": {
+      "screenMessage": "A tela \u00e9 mantida ligada",
+      "screenSleepMessage": "A tela pode ser colocada em repouso",
+      "iconMessage": "Aproveite seu intervalo",
+      "breakMessage": "O intervalo termina em:",
+      "timerSectionOptions": "Temporizadores",
+      "breakSectionOptions": "Intervalos",
+      "autoStartOption": "In\u00edcio autom\u00e1tico"
+    },
+    "editScreenForm": {
+      "titleField": "T\u00edtulo",
+      "serviceField": "Servi\u00e7o",
+      "projectField": "Projeto",
+      "listField": "Lista",
+      "assignField": "Atribuir a",
+      "descriptionField": "Descri\u00e7\u00e3o",
+      "dateField": "Data de vencimento",
+      "clearField": "Limpar",
+      "editTask": "Editar tarefa",
+      "addDueDate": "Adicionar data de vencimento...",
+      "newItem": "Novo item",
+      "create": "Criar"
+    },
+    "statScreen": {
+      "currentStats": "Estat\u00edsticas atuais",
+      "noInternetMessage": "Sem conex\u00e3o com a Internet",
+      "recomendMessage": "Fique on-line ver as Estat\u00edsticas e Registros",
+      "lastDays": "\u00daltimos {{count}} dias",
+      "total": "Total",
+      "dailyAverage": "M\u00e9dia di\u00e1ria",
+      "bestWorkday": "Melhor dia \u00fatil",
+      "todayLog": "Registro de hoje",
+      "loadingLogStats": "Carregando registros e estat\u00edsticas",
+      "noTimeTracked": "N\u00e3o h\u00e1 tempo medido",
+      "pomodoro": "pomodoro",
+      "pomodoro_plural": "pomodoros",
+      "pomodoro_0": "pomodoros",
+      "pomodoro_1": "pomodoros",
+      "pomodoro_2": "pomodoros",
+      "entries": "entrada",
+      "entries_plural": "entradas",
+      "entries_0": "entradas",
+      "entries_1": "entradas",
+      "entries_2": "entradas"
+    },
+    "controlItem": {
+      "saveButton": "Salvar",
+      "offline": "Voc\u00ea est\u00e1 off-line"
+    },
+    "menuItem": {
+      "currentStats": "Estat\u00edsticas atuais",
+      "settings": "Configura\u00e7\u00f5es",
+      "about": "Sobre",
+      "detailedLog": "Registro detalhado",
+      "connectedServices": "Servi\u00e7os conectados",
+      "myProfile": "Meu perfil",
+      "feedback": "Coment\u00e1rios",
+      "logOut": "Sair",
+      "plan": "Plano"
+    },
+    "dashboardItemScreen": {
+      "noItem": "Nenhum item",
+      "anotherSource": "Selecione outra fonte de itens...",
+      "emptySearchResult": "Resultado da pesquisa vazia",
+      "emptySearchResultDescription": "Sua pesquisa - {{query}} n\u00e3o encontrou nenhum item",
+      "trySearchAnything": "Tente pesquisar qualquer coisa",
+      "search": "Pesquisar"
+    },
+    "screenAboutItem": {
+      "about": "Sobre",
+      "appDescription": "$t(app:name) \u00e9 uma Solu\u00e7\u00e3o de Gest\u00e3o de Produtividade Pessoal, que capacita os usu\u00e1rios a recuperar o controle sobre seu tempo e tarefas.",
+      "createdBy": "Aplicativo criado pela UAB Pomodon\u0117, Vilnius, Litu\u00e2nia.",
+      "appYear": "2018 \u00a9 Pomodon\u0117 UAB",
+      "appName": "$t(app:name)",
+      "aboutPomodone": "Sobre o $t(app:name)",
+      "faq": "FAQ",
+      "feedback": "Coment\u00e1rios",
+      "privacyPolicyLinkText": "Pol\u00edtica de privacidade",
+      "tosLinkText": "Termos de servi\u00e7o"
+    },
+    "screenIntroItem": {
+      "skip": "Ignorar",
+      "letGo": "Vamos l\u00e1",
+      "trackSmart": "Acompanhe de forma inteligente",
+      "accountTrack": "Conecte sua conta e comece a acompanhar o tempo agora mesmo",
+      "onePlace": "Em um lugar",
+      "favTask": "Adicione suas tarefas de diferentes fontes aos favoritos para ter um acesso r\u00e1pido",
+      "beFlex": "Seja flex\u00edvel",
+      "setCountdown": "Configure seus pr\u00f3prios temporizadores de contagem regressiva (nas configura\u00e7\u00f5es)",
+      "expelDistr": "Expulsar distra\u00e7\u00f5es",
+      "slackMate": "Seus companheiros do Slack podem ser notificados sobre seu fluxo de trabalho"
+    },
+    "fullScreenTimer": {
+      "integerNumber": "Precisa de um n\u00famero inteiro positivo...",
+      "durationMinute": "Dura\u00e7\u00e3o em minutos"
+    },
+    "batteryHelpScreen": {
+      "feature": "A restri\u00e7\u00e3o de servi\u00e7os de segundo plano no Android pode impedir que os temporizadores sejam executados corretamente. O recurso Doze foi adicionado para restringir servi\u00e7os em segundo plano no Android 6 e posterior.",
+      "dozeState": "Depois de deixar o dispositivo sem uso por um tempo, ele entrar\u00e1 no estado Doze ap\u00f3s um determinado per\u00edodo e o uso da rede tamb\u00e9m ser\u00e1 restrito.",
+      "fix": "Se quiser corrigir o problema, desative a op\u00e7\u00e3o de otimiza\u00e7\u00e3o da bateria. Por favor, consulte o m\u00e9todo abaixo para cada dispositivo.",
+      "openSettings": "Abrir configura\u00e7\u00f5es",
+      "guide": "Guia para diferentes dispositivos Android"
+    }
+  }
+}
