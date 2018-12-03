@@ -26,6 +26,17 @@
         }
       }
     },
+    "alerts": {
+        "actions": {
+            "cancel": "Cancel",
+            "delete": "Delete",
+            "ok": "OK"
+        },
+        "delete": {
+            "title": "Delete item",
+            "message": "Are you sure you want to delete this item?"
+        }
+    },
     "components": {
       "checkbox": {
         "enabled": "Aktiviert",
@@ -105,14 +116,16 @@
         "startTimer": "Timer starten",
         "done": "Aufgabe erledigen",
         "favorite": "Favorit hinzuf\u00fcgen\/entfernen",
-        "edit": "Aufgabe bearbeiten"
+        "edit": "Aufgabe bearbeiten",
+        "delete": "Delete Task"
       },
       "swipeActionsName": {
         "startTimer": "Timer starten",
         "done": "Aufgabe erledigen",
         "addToFavorite": "Favorit",
         "removeFromFavorite": "Kein Favorit",
-        "edit": "Aufgabe bearbeiten"
+        "edit": "Aufgabe bearbeiten",
+        "delete": "Delete Task"
       }
     },
     "timerScreen": {
@@ -136,7 +149,8 @@
       "editTask": "Aufgabe bearbeiten",
       "addDueDate": "F\u00e4lligkeitsdatum hinzuf\u00fcgen...",
       "newItem": "Neues Element",
-      "create": "Erstellen"
+      "create": "Erstellen",
+      "delete": "Delete"
     },
     "statScreen": {
       "currentStats": "Aktuelle Statistiken",
