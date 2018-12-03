@@ -26,6 +26,25 @@
         }
       }
     },
+    "alerts": {
+        "actions": {
+            "cancel": "Cancel",
+            "delete": "Delete",
+            "ok": "OK"
+        },
+        "delete": {
+            "title": "Delete item",
+            "message": "Are you sure you want to delete this item?"
+        }
+    },
+    "notifications": {
+        "onTimerStopped": {
+            "title": "Timer stopped..."
+        },
+        "onBreakStopped": {
+            "title": "Break stopped..."
+        }
+    },
     "components": {
       "checkbox": {
         "enabled": "\u5df2\u542f\u7528",
@@ -105,14 +124,16 @@
         "startTimer": "\u5f00\u59cb\u8ba1\u65f6",
         "done": "\u5b8c\u6210\u4efb\u52a1",
         "favorite": "\u52a0\u5165\uff0f\u79fb\u51fa\u6536\u85cf",
-        "edit": "\u7f16\u8f91\u4efb\u52a1"
+        "edit": "\u7f16\u8f91\u4efb\u52a1",
+        "delete": "Delete Task"
       },
       "swipeActionsName": {
         "startTimer": "\u5f00\u59cb\u8ba1\u65f6",
         "done": "\u5b8c\u6210\u4efb\u52a1",
         "addToFavorite": "\u5df2\u6dfb\u52a0\u81f3\u6536\u85cf",
         "removeFromFavorite": "\u5df2\u53d6\u6d88\u6536\u85cf",
-        "edit": "\u7f16\u8f91\u4efb\u52a1"
+        "edit": "\u7f16\u8f91\u4efb\u52a1",
+        "delete": "Delete Task"
       }
     },
     "timerScreen": {

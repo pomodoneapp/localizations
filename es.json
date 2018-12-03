@@ -37,6 +37,14 @@
             "message": "Are you sure you want to delete this item?"
         }
     },
+    "notifications": {
+        "onTimerStopped": {
+            "title": "Timer stopped..."
+        },
+        "onBreakStopped": {
+            "title": "Break stopped..."
+        }
+    },
     "components": {
       "checkbox": {
         "enabled": "Habilitada",
