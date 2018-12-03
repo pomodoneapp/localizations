@@ -37,6 +37,14 @@
                 "message": "Вы уверены, что хотите удалить эту задачу?"
             }
         },
+        "notifications": {
+            "onTimerStopped": {
+                "title": "Таймер остановлен..."
+            },
+            "onBreakStopped": {
+                "title": "Перерыв остановлен..."
+            }
+        },
         "components": {
             "checkbox": {
                 "enabled": "Вкл",
