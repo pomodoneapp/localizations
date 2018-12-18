@@ -49,6 +49,9 @@
       "checkbox": {
         "enabled": "\u5df2\u542f\u7528",
         "disabled": "\u5df2\u7981\u7528"
+      },
+      "QuickCreate": {
+          "label": "+ add task"
       }
     },
     "loginScreen": {
