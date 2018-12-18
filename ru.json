@@ -49,6 +49,9 @@
             "checkbox": {
                 "enabled": "Вкл",
                 "disabled": "Выкл"
+            },
+            "QuickCreate": {
+                "label": "+ добавить задачу"
             }
         },
         "loginScreen": {

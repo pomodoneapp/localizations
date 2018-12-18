@@ -49,6 +49,9 @@
       "checkbox": {
         "enabled": "Ativado",
         "disabled": "Desativado"
+      },
+      "QuickCreate": {
+          "label": "+ add task"
       }
     },
     "loginScreen": {
