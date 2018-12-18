@@ -39,10 +39,10 @@
         },
         "notifications": {
             "onTimerStopped": {
-                "title": "Таймер остановлен..."
+                "title": "Таймер завершён..."
             },
             "onBreakStopped": {
-                "title": "Перерыв остановлен..."
+                "title": "Перерыв завершён..."
             }
         },
         "components": {
