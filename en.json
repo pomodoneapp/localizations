@@ -82,6 +82,7 @@
             "title": "Services",
             "cancelButton": "Cancel",
             "doneSwitchButton": "Done & Switch",
+            "sortingDoneButton": "Done",
             "switchButton": "Switch",
             "timerMessage": "You have a timer running",
             "timerRunMessage": "Do you want to switch to this task"

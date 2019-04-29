@@ -82,6 +82,7 @@
             "title": "Сервисы",
             "cancelButton": "Отмена",
             "doneSwitchButton": "Пометить как завершенную и перейти",
+            "sortingDoneButton": "Сохранить",
             "switchButton": "Перейти",
             "timerMessage": "Ваш таймер продолжает работать.",
             "timerRunMessage": "Вы хотите перейти к этой задаче:"

@@ -82,6 +82,7 @@
       "title": "\u670d\u52a1",
       "cancelButton": "\u53d6\u6d88",
       "doneSwitchButton": "\u5b8c\u6210\u548c\u5207\u6362",
+      "sortingDoneButton": "\u4fdd\u5b58",
       "switchButton": "\u5207\u6362",
       "timerMessage": "\u60a8\u6709\u4e00\u4e2a\u6b63\u5728\u8fd0\u884c\u7684\u8ba1\u65f6",
       "timerRunMessage": "\u60a8\u60f3\u8981\u5207\u6362\u5230\u6b64\u4efb\u52a1\u5417"
