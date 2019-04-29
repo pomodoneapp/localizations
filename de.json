@@ -82,6 +82,7 @@
       "title": "Dienstleistungen",
       "cancelButton": "Abbrechen",
       "doneSwitchButton": "Erledigt & Wechseln",
+      "sortingDoneButton": "Erledigt",
       "switchButton": "Wechseln",
       "timerMessage": "Es l\u00e4uft ein Timer",
       "timerRunMessage": "M\u00f6chten Sie zu dieser Aufgabe wechseln?"

@@ -82,6 +82,7 @@
       "title": "Servicios",
       "cancelButton": "Cancelar",
       "doneSwitchButton": "Hecho y cambiar",
+      "sortingDoneButton": "Hecho",
       "switchButton": "Cambiar",
       "timerMessage": "Tienes un temporizador en marcha",
       "timerRunMessage": "Deseas cambiar a esta tarea"
