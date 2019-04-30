@@ -202,7 +202,7 @@
             "plan": "Plan"
         },
         "dashboardItemScreen": {
-            "noItem": "No item",
+            "noItem": "Nothing here",
             "anotherSource": "Please select another source of items...",
             "emptySearchResult": "Empty search result",
             "emptySearchResultDescription": "Your search – {{query}} did not match any items",
