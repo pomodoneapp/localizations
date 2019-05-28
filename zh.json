@@ -26,6 +26,27 @@
         }
       }
     },
+    "sounds": {
+        "none": "No sound",
+        "timerLoop": "Timer Loop",
+        "timerStart": "Timer Start",
+        "timerEnd": "Timer End",
+        "breakStart": "Break Start",
+        "breakEnd": "Break End",
+        "campfire": "Campfire",
+        "coffeeShop": "Coffee Shop",
+        "copperChimes": "Copper Chimes",
+        "creekWaterFlow": "Creek Water Flow",
+        "forest": "Forest",
+        "forest2": "Forest 2",
+        "oceanWaves": "Ocean Waves",
+        "rainAndWind": "Rain And Wind",
+        "rainInJungle": "Rain in Jungle",
+        "summerMeadow": "Summer Meadow",
+        "еhunderstorm": "Thunderstorm",
+        "train": "Train",
+        "waves": "Waves at the dock"
+    },
     "alerts": {
         "actions": {
             "cancel": "Cancel",
@@ -46,13 +67,16 @@
         }
     },
     "components": {
-      "checkbox": {
-        "enabled": "\u5df2\u542f\u7528",
-        "disabled": "\u5df2\u7981\u7528"
-      },
-      "QuickCreate": {
-          "label": "+ add task"
-      }
+        "checkbox": {
+            "enabled": "\u5df2\u542f\u7528",
+            "disabled": "\u5df2\u7981\u7528"
+        },
+        "QuickCreate": {
+            "label": "+ add task"
+        },
+        "TickingSoundMenu": {
+            "title": "Sounds"
+        }
     },
     "loginScreen": {
       "loginButtonTitle": "\u767b\u5165",

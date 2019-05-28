@@ -25,6 +25,26 @@
                     "sunday": "Воскресенье"
                 }
             }
+        },"sounds": {
+            "none": "Без звука",
+            "timerLoop": "Тик-так",
+            "timerStart": "Начало таймера",
+            "timerEnd": "Конец таймера",
+            "breakStart": "Начало перерыва",
+            "breakEnd": "Конец перерыва",
+            "campfire": "Костер",
+            "coffeeShop": "Кофейня",
+            "copperChimes": "Медные куранты",
+            "creekWaterFlow": "Ручей",
+            "forest": "Лес",
+            "forest2": "Лес 2",
+            "oceanWaves": "Океанские волны",
+            "rainAndWind": "Дождь и ветер",
+            "rainInJungle": "Дождь в джунглях",
+            "summerMeadow": "Летний луг",
+            "еhunderstorm": "Гром",
+            "train": "Поезд",
+            "waves": "Волны в доке"
         },
         "alerts": {
             "actions": {
@@ -52,6 +72,9 @@
             },
             "QuickCreate": {
                 "label": "+ добавить задачу"
+            },
+            "TickingSoundMenu": {
+                "title": "Звуки"
             }
         },
         "loginScreen": {
