@@ -27,44 +27,44 @@
       }
     },
     "sounds": {
-        "none": "No sound",
-        "timerLoop": "Timer Loop",
-        "timerStart": "Timer Start",
-        "timerEnd": "Timer End",
-        "breakStart": "Break Start",
-        "breakEnd": "Break End",
-        "campfire": "Campfire",
-        "coffeeShop": "Coffee Shop",
-        "copperChimes": "Copper Chimes",
-        "creekWaterFlow": "Creek Water Flow",
-        "forest": "Forest",
-        "forest2": "Forest 2",
-        "oceanWaves": "Ocean Waves",
-        "rainAndWind": "Rain And Wind",
-        "rainInJungle": "Rain in Jungle",
-        "summerMeadow": "Summer Meadow",
-        "еhunderstorm": "Thunderstorm",
-        "train": "Train",
-        "waves": "Waves at the dock"
+      "none": "No sound",
+      "timerLoop": "Timer Loop",
+      "timerStart": "Timer Start",
+      "timerEnd": "Timer End",
+      "breakStart": "Break Start",
+      "breakEnd": "Break End",
+      "campfire": "Campfire",
+      "coffeeShop": "Coffee Shop",
+      "copperChimes": "Copper Chimes",
+      "creekWaterFlow": "Creek Water Flow",
+      "forest": "Forest",
+      "forest2": "Forest 2",
+      "oceanWaves": "Ocean Waves",
+      "rainAndWind": "Rain And Wind",
+      "rainInJungle": "Rain in Jungle",
+      "summerMeadow": "Summer Meadow",
+      "еhunderstorm": "Thunderstorm",
+      "train": "Train",
+      "waves": "Waves at the dock"
     },
     "alerts": {
-        "actions": {
-            "cancel": "Cancel",
-            "delete": "Delete",
-            "ok": "OK"
-        },
-        "delete": {
-            "title": "Delete item",
-            "message": "Are you sure you want to delete this item?"
-        }
+      "actions": {
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "ok": "OK"
+      },
+      "delete": {
+        "title": "Delete item",
+        "message": "Are you sure you want to delete this item?"
+      }
     },
     "notifications": {
-        "onTimerStopped": {
-            "title": "Timer stopped..."
-        },
-        "onBreakStopped": {
-            "title": "Break stopped..."
-        }
+      "onTimerStopped": {
+        "title": "Timer stopped..."
+      },
+      "onBreakStopped": {
+        "title": "Break stopped..."
+      }
     },
     "components": {
       "checkbox": {
@@ -72,7 +72,7 @@
         "disabled": "Deaktiviert"
       },
       "QuickCreate": {
-          "label": "+ add task"
+        "label": "+ add task"
       },
       "TickingSoundMenu": {
         "title": "Sounds"
@@ -83,6 +83,7 @@
       "passwordLabel": "Passwort",
       "snackBarTitle": "Einloggen",
       "emailLabel": "E-Mail",
+      "resetPasswordLink": "Reset Password",
       "singInHeaderLabel": "Anmelden"
     },
     "authScreen": {
@@ -128,6 +129,7 @@
       "browser": "Browser",
       "breakOptions": "Pausen-Optionen",
       "theme": "Dunkle Einstellung",
+      "themeTitle": "Theme",
       "detectBattery": "Batterieoptimierung ermitteln",
       "timerOptionSet": "Timer-Optionen einstellen",
       "timerStopNotification": "Benachrichtigung, wenn der Timer stoppt",
@@ -144,14 +146,20 @@
       "swipesSettingsHeadline": "Wischen",
       "leftSwipeAction": "Nach links wischen",
       "rightSwipeAction": "Nach rechts wischen",
+      "leftSecondSwipeAction": "Left Second Swipe Action",
+      "rightSecondSwipeAction": "Right Second Swipe Action",
       "leftSwipe": "Links wischen",
       "rightSwipe": "Rechts wischen",
+      "leftSecondSwipe": "Left Second Swipe",
+      "rightSecondSwipe": "Right Second Swipe",
       "min": "Min.",
+      "DNDEnabled": "DND Enabled",
+      "DNDLabel": "DND while timer is ticking",
       "swipeActions": {
         "none": "Keine",
         "startTimer": "Timer starten",
         "done": "Aufgabe erledigen",
-        "favorite": "Favorit hinzuf\u00fcgen\/entfernen",
+        "favorite": "Favorit hinzuf\u00fcgen/entfernen",
         "edit": "Aufgabe bearbeiten",
         "delete": "Delete Task"
       },
@@ -162,6 +170,11 @@
         "removeFromFavorite": "Kein Favorit",
         "edit": "Aufgabe bearbeiten",
         "delete": "Delete Task"
+      },
+      "themeTypes": {
+        "auto": "Auto",
+        "dark": "Dark",
+        "light": "Light"
       }
     },
     "timerScreen": {
@@ -237,7 +250,7 @@
       "about": "\u00dcber",
       "appDescription": "$t(app:name) ist eine L\u00f6sung f\u00fcr pers\u00f6nliches Produktivit\u00e4tsmanagement, es erm\u00f6glicht Benutzern, die Kontrolle \u00fcber ihre Zeit und Aufgaben zur\u00fcckzugewinnen.",
       "createdBy": "Anwendung entworfen von UAB Pomodon\u0117, Vilnius, Litauen.",
-      "appYear": "2018 \u00a9 Pomodon\u0117 UAB",
+      "appYear": "2020 \u00a9 Pomodon\u0117 UAB",
       "appName": "$t(app:name)",
       "aboutPomodone": "\u00dcber $t(app:name)",
       "faq": "FAQ",
