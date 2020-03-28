@@ -1,272 +1,285 @@
 {
-    "label": "English",
-    "locale": "en",
-    "translations": {
-        "app": {
-            "name": "PomoDoneApp"
-        },
-        "common": {
-            "date": {
-                "shortYear": "y",
-                "shortMonth": "mo",
-                "shortWeek": "w",
-                "shortDay": "d",
-                "shortHour": "h",
-                "shortMin": "m",
-                "shortSec": "s",
-                "shortMilliSec": "ms",
-                "fullDays": {
-                    "monday": "Monday",
-                    "tuesday": "Tuesday",
-                    "wednesday": "Wednesday",
-                    "thursday": "Thursday",
-                    "friday": "Friday",
-                    "saturday": "Saturday",
-                    "sunday": "Sunday"
-                }
-            }
-        },
-        "sounds": {
-            "none": "No sound",
-            "timerLoop": "Timer Loop",
-            "timerStart": "Timer Start",
-            "timerEnd": "Timer End",
-            "breakStart": "Break Start",
-            "breakEnd": "Break End",
-            "campfire": "Campfire",
-            "coffeeShop": "Coffee Shop",
-            "copperChimes": "Copper Chimes",
-            "creekWaterFlow": "Creek Water Flow",
-            "forest": "Forest",
-            "forest2": "Forest 2",
-            "oceanWaves": "Ocean Waves",
-            "rainAndWind": "Rain And Wind",
-            "rainInJungle": "Rain in Jungle",
-            "summerMeadow": "Summer Meadow",
-            "еhunderstorm": "Thunderstorm",
-            "train": "Train",
-            "waves": "Waves at the dock"
-        },
-        "alerts": {
-            "actions": {
-                "cancel": "Cancel",
-                "delete": "Delete",
-                "ok": "OK"
-            },
-            "delete": {
-                "title": "Delete item",
-                "message": "Are you sure you want to delete this item?"
-            }
-        },
-        "notifications": {
-            "onTimerStopped": {
-                "title": "Timer stopped..."
-            },
-            "onBreakStopped": {
-                "title": "Break stopped..."
-            }
-        },
-        "components": {
-            "checkbox": {
-                "enabled": "Enabled",
-                "disabled": "Disabled"
-            },
-            "QuickCreate": {
-                "label": "+ add task"
-            },
-            "TickingSoundMenu": {
-                "title": "Sounds"
-            }
-        },
-        "loginScreen": {
-            "loginButtonTitle": "Sign in",
-            "passwordLabel": "Password",
-            "snackBarTitle": "Logged in",
-            "emailLabel": "Email",
-            "singInHeaderLabel": "Sign in"
-        },
-        "authScreen": {
-            "headerAppName": "$t(app:name)",
-            "signInLabel": "Sign in",
-            "registerLabel": "Register",
-            "regSuccessMessage": "Registration successful",
-            "confirmMessage": "We need to confirm your email address. To complete your registration, please click the link in the email we just sent you."
-        },
-        "registerScreen": {
-            "registerHeaderLabel": "Register",
-            "emailLabel": "Email",
-            "registerButton": "Register",
-            "headerAppName": "$t(app:name)",
-            "partAccept": "I've read and accept",
-            "partPolicy": "Privacy Policy",
-            "partAnd": "and",
-            "partTerms": "Terms of Service"
-        },
-        "dashboardScreen": {
-            "title": "Services",
-            "cancelButton": "Cancel",
-            "doneSwitchButton": "Done & Switch",
-            "sortingDoneButton": "Done",
-            "switchButton": "Switch",
-            "timerMessage": "You have a timer running",
-            "timerRunMessage": "Do you want to switch to this task"
-        },
-        "settingsScreen": {
-            "title": "Settings",
-            "settingMenu": "Advanced Settings",
-            "settingMenuTitle": "Advanced Settings",
-            "timerEnd": "End of timer",
-            "timerOption": "Timer options",
-            "timer": "Timer",
-            "break": "Break",
-            "notifications": "Notifications",
-            "notificationsTitle": "Notifications",
-            "sounds": "Sounds",
-            "soundsTitle": "Sounds",
-            "breakCustom": "Set custom breaks durations",
-            "breakEnd": "End of break",
-            "browser": "Browser",
-            "breakOptions": "Break Options",
-            "theme": "Dark theme",
-            "detectBattery": "Detect Battery Optimization",
-            "timerOptionSet": "Set timer options",
-            "timerStopNotification": "Timer stop notification",
-            "breakStopNotification": "Break stop notification",
-            "timerFinish": "Timer finish",
-            "startBreakAlert": "Start break alert",
-            "endBreakAlert": "End break alert",
-            "timerLoop": "Timer loop",
-            "breakLoop": "Break loop",
-            "detectBatteryOptimization": "Detect battery optimization",
-            "openExternalLinks": "Open external links in...",
-            "language": "Language",
-            "selectLanguage": "Select Language",
-            "swipesSettingsHeadline": "Swipes",
-            "leftSwipeAction": "Left Swipe Action",
-            "rightSwipeAction": "Right Swipe Action",
-            "leftSwipe": "Left Swipe",
-            "rightSwipe": "Right Swipe",
-            "min": "min",
-            "swipeActions": {
-                "none": "None",
-                "startTimer": "Start Timer",
-                "done": "Complete Task",
-                "favorite": "Add/Remove Favorite",
-                "edit": "Edit Task",
-                "delete": "Delete Task"
-            },
-            "swipeActionsName": {
-                "startTimer": "Start Timer",
-                "done": "Complete Task",
-                "addToFavorite": "Favorite",
-                "removeFromFavorite": "Unfavorite",
-                "edit": "Edit Task",
-                "delete": "Delete Task"
-            }
-        },
-        "timerScreen": {
-            "screenMessage": "Screen is kept on",
-            "screenSleepMessage": "Screen is allowed to sleep",
-            "iconMessage": "Enjoy your break",
-            "breakMessage": "Break ends in:",
-            "timerSectionOptions": "Timers",
-            "breakSectionOptions": "Breaks",
-            "autoStartOption": "Auto start"
-        },
-        "editScreenForm": {
-            "titleField": "Title",
-            "serviceField": "Service",
-            "projectField": "Project",
-            "listField": "List",
-            "assignField": "Assign to",
-            "descriptionField": "Description",
-            "dateField": "Due date",
-            "clearField": "Clear",
-            "editTask": "Edit task",
-            "addDueDate": "Add due date...",
-            "newItem": "New item",
-            "create": "Create",
-            "delete": "Delete"
-        },
-        "statScreen": {
-            "currentStats": "Current stats",
-            "noInternetMessage": "No internet connection",
-            "recomendMessage": "Please go online to see Stats & Log",
-            "lastDays": "Last {{count}} Days",
-            "total": "Total",
-            "dailyAverage": "Daily average",
-            "bestWorkday": "Best workday",
-            "todayLog": "Today log",
-            "loadingLogStats": "Loading Log & Stats",
-            "noTimeTracked": "No time tracked",
-            "pomodoro": "pomodoro",
-            "pomodoro_plural": "pomodoros",
-            "pomodoro_0": "pomodoros",
-            "pomodoro_1": "pomodoros",
-            "pomodoro_2": "pomodoros",
-            "entries": "entry",
-            "entries_plural": "entries",
-            "entries_0": "entries",
-            "entries_1": "entries",
-            "entries_2": "entries"
-        },
-        "controlItem": {
-            "saveButton": "Save",
-            "offline": "You are offline"
-        },
-        "menuItem": {
-            "currentStats": "Current stats",
-            "settings": "Settings",
-            "about": "About",
-            "detailedLog": "Detailed log",
-            "connectedServices": "Connected services",
-            "myProfile": "My profile",
-            "feedback": "Feedback",
-            "logOut": "Log out",
-            "plan": "Plan"
-        },
-        "dashboardItemScreen": {
-            "noItem": "Nothing here",
-            "anotherSource": "Please select another source of items...",
-            "emptySearchResult": "Empty search result",
-            "emptySearchResultDescription": "Your search – {{query}} did not match any items",
-            "trySearchAnything": "Try search anything",
-            "search": "Search"
-        },
-        "screenAboutItem": {
-            "about": "About",
-            "appDescription": "$t(app:name) is a Personal Productivity Management Solution, empowering users to regain control over their time and tasks.",
-            "createdBy": "App created by UAB Pomodonė, Vilnius, Lithuania.",
-            "appYear": "2018 © Pomodonė UAB",
-            "appName": "$t(app:name)",
-            "aboutPomodone": "About $t(app:name)",
-            "faq": "F.A.Q.",
-            "feedback": "Feedback",
-            "privacyPolicyLinkText": "Privacy Policy",
-            "tosLinkText": "Terms of Service"
-        },
-        "screenIntroItem": {
-            "skip": "Skip",
-            "letGo": "Let's Go",
-            "trackSmart": "Track smart",
-            "accountTrack": "Connect your account and start tracking time now",
-            "onePlace": "In One Place",
-            "favTask": "Favorite your tasks from different sources for quick access",
-            "beFlex": "Be Flexible",
-            "setCountdown": "Set up your own countdown timers (in settings)",
-            "expelDistr": "Expel Distractions",
-            "slackMate": "Your Slack mates can be notified about your workflow"
-        },
-        "fullScreenTimer": {
-            "integerNumber": "Need a integer positive number...",
-            "durationMinute": "Duration in minutes"
-        },
-        "batteryHelpScreen": {
-            "feature": "Restricting background services on Android may prevent timers from running properly. The Doze feature has been added to restrict background services on the Android 6 and later.",
-            "dozeState": "Once you leave the device unused for a while, it will be in the Doze state after a certain period of time and the network usage will be restricted as well.",
-            "fix": "If you want to fix the problem, you should turn off the battery optimization option. Please refer to the below method for each device.",
-            "openSettings": "Open settings",
-            "guide": "Guide for different Android devices"
+  "label": "English",
+  "locale": "en",
+  "translations": {
+    "app": {
+      "name": "PomoDoneApp"
+    },
+    "common": {
+      "date": {
+        "shortYear": "y",
+        "shortMonth": "mo",
+        "shortWeek": "w",
+        "shortDay": "d",
+        "shortHour": "h",
+        "shortMin": "m",
+        "shortSec": "s",
+        "shortMilliSec": "ms",
+        "fullDays": {
+          "monday": "Monday",
+          "tuesday": "Tuesday",
+          "wednesday": "Wednesday",
+          "thursday": "Thursday",
+          "friday": "Friday",
+          "saturday": "Saturday",
+          "sunday": "Sunday"
         }
+      }
+    },
+    "sounds": {
+      "none": "No sound",
+      "timerLoop": "Timer Loop",
+      "timerStart": "Timer Start",
+      "timerEnd": "Timer End",
+      "breakStart": "Break Start",
+      "breakEnd": "Break End",
+      "campfire": "Campfire",
+      "coffeeShop": "Coffee Shop",
+      "copperChimes": "Copper Chimes",
+      "creekWaterFlow": "Creek Water Flow",
+      "forest": "Forest",
+      "forest2": "Forest 2",
+      "oceanWaves": "Ocean Waves",
+      "rainAndWind": "Rain And Wind",
+      "rainInJungle": "Rain in Jungle",
+      "summerMeadow": "Summer Meadow",
+      "еhunderstorm": "Thunderstorm",
+      "train": "Train",
+      "waves": "Waves at the dock"
+    },
+    "alerts": {
+      "actions": {
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "ok": "OK"
+      },
+      "delete": {
+        "title": "Delete item",
+        "message": "Are you sure you want to delete this item?"
+      }
+    },
+    "notifications": {
+      "onTimerStopped": {
+        "title": "Timer stopped..."
+      },
+      "onBreakStopped": {
+        "title": "Break stopped..."
+      }
+    },
+    "components": {
+      "checkbox": {
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+      },
+      "QuickCreate": {
+        "label": "+ add task"
+      },
+      "TickingSoundMenu": {
+        "title": "Sounds"
+      }
+    },
+    "loginScreen": {
+      "loginButtonTitle": "Sign in",
+      "passwordLabel": "Password",
+      "snackBarTitle": "Logged in",
+      "emailLabel": "Email",
+      "resetPasswordLink": "Reset Password",
+      "singInHeaderLabel": "Sign in"
+    },
+    "authScreen": {
+      "headerAppName": "$t(app:name)",
+      "signInLabel": "Sign in",
+      "registerLabel": "Register",
+      "regSuccessMessage": "Registration successful",
+      "confirmMessage": "We need to confirm your email address. To complete your registration, please click the link in the email we just sent you."
+    },
+    "registerScreen": {
+      "registerHeaderLabel": "Register",
+      "emailLabel": "Email",
+      "registerButton": "Register",
+      "headerAppName": "$t(app:name)",
+      "partAccept": "I've read and accept",
+      "partPolicy": "Privacy Policy",
+      "partAnd": "and",
+      "partTerms": "Terms of Service"
+    },
+    "dashboardScreen": {
+      "title": "Services",
+      "cancelButton": "Cancel",
+      "doneSwitchButton": "Done & Switch",
+      "sortingDoneButton": "Done",
+      "switchButton": "Switch",
+      "timerMessage": "You have a timer running",
+      "timerRunMessage": "Do you want to switch to this task"
+    },
+    "settingsScreen": {
+      "title": "Settings",
+      "settingMenu": "Advanced Settings",
+      "settingMenuTitle": "Advanced Settings",
+      "timerEnd": "End of timer",
+      "timerOption": "Timer options",
+      "timer": "Timer",
+      "break": "Break",
+      "notifications": "Notifications",
+      "notificationsTitle": "Notifications",
+      "sounds": "Sounds",
+      "soundsTitle": "Sounds",
+      "breakCustom": "Set custom breaks durations",
+      "breakEnd": "End of break",
+      "browser": "Browser",
+      "breakOptions": "Break Options",
+      "theme": "Dark theme",
+      "themeTitle": "Theme",
+      "detectBattery": "Detect Battery Optimization",
+      "timerOptionSet": "Set timer options",
+      "timerStopNotification": "Timer stop notification",
+      "breakStopNotification": "Break stop notification",
+      "timerFinish": "Timer finish",
+      "startBreakAlert": "Start break alert",
+      "endBreakAlert": "End break alert",
+      "timerLoop": "Timer loop",
+      "breakLoop": "Break loop",
+      "detectBatteryOptimization": "Detect battery optimization",
+      "openExternalLinks": "Open external links in...",
+      "language": "Language",
+      "selectLanguage": "Select Language",
+      "swipesSettingsHeadline": "Swipes",
+      "leftSwipeAction": "Left Swipe Action",
+      "rightSwipeAction": "Right Swipe Action",
+      "leftSecondSwipeAction": "Left Second Swipe Action",
+      "rightSecondSwipeAction": "Right Second Swipe Action",
+      "leftSwipe": "Left Swipe",
+      "rightSwipe": "Right Swipe",
+      "leftSecondSwipe": "Left Second Swipe",
+      "rightSecondSwipe": "Right Second Swipe",
+      "min": "min",
+      "DNDEnabled": "DND Enabled",
+      "DNDLabel": "DND while timer is ticking",
+      "swipeActions": {
+        "none": "None",
+        "startTimer": "Start Timer",
+        "done": "Complete Task",
+        "favorite": "Add/Remove Favorite",
+        "edit": "Edit Task",
+        "delete": "Delete Task"
+      },
+      "swipeActionsName": {
+        "startTimer": "Start Timer",
+        "done": "Complete Task",
+        "addToFavorite": "Favorite",
+        "removeFromFavorite": "Unfavorite",
+        "edit": "Edit Task",
+        "delete": "Delete Task"
+      },
+      "themeTypes": {
+        "auto": "Auto",
+        "dark": "Dark",
+        "light": "Light"
+      }
+    },
+    "timerScreen": {
+      "screenMessage": "Screen is kept on",
+      "screenSleepMessage": "Screen is allowed to sleep",
+      "iconMessage": "Enjoy your break",
+      "breakMessage": "Break ends in:",
+      "timerSectionOptions": "Timers",
+      "breakSectionOptions": "Breaks",
+      "autoStartOption": "Auto start"
+    },
+    "editScreenForm": {
+      "titleField": "Title",
+      "serviceField": "Service",
+      "projectField": "Project",
+      "listField": "List",
+      "assignField": "Assign to",
+      "descriptionField": "Description",
+      "dateField": "Due date",
+      "clearField": "Clear",
+      "editTask": "Edit task",
+      "addDueDate": "Add due date...",
+      "newItem": "New item",
+      "create": "Create",
+      "delete": "Delete"
+    },
+    "statScreen": {
+      "currentStats": "Current stats",
+      "noInternetMessage": "No internet connection",
+      "recomendMessage": "Please go online to see Stats & Log",
+      "lastDays": "Last {{count}} Days",
+      "total": "Total",
+      "dailyAverage": "Daily average",
+      "bestWorkday": "Best workday",
+      "todayLog": "Today log",
+      "loadingLogStats": "Loading Log & Stats",
+      "noTimeTracked": "No time tracked",
+      "pomodoro": "pomodoro",
+      "pomodoro_plural": "pomodoros",
+      "pomodoro_0": "pomodoros",
+      "pomodoro_1": "pomodoros",
+      "pomodoro_2": "pomodoros",
+      "entries": "entry",
+      "entries_plural": "entries",
+      "entries_0": "entries",
+      "entries_1": "entries",
+      "entries_2": "entries"
+    },
+    "controlItem": {
+      "saveButton": "Save",
+      "offline": "You are offline"
+    },
+    "menuItem": {
+      "currentStats": "Current stats",
+      "settings": "Settings",
+      "about": "About",
+      "detailedLog": "Detailed log",
+      "connectedServices": "Connected services",
+      "myProfile": "My profile",
+      "feedback": "Feedback",
+      "logOut": "Log out",
+      "plan": "Plan"
+    },
+    "dashboardItemScreen": {
+      "noItem": "Nothing here",
+      "anotherSource": "Please select another source of items...",
+      "emptySearchResult": "Empty search result",
+      "emptySearchResultDescription": "Your search – {{query}} did not match any items",
+      "trySearchAnything": "Try search anything",
+      "search": "Search"
+    },
+    "screenAboutItem": {
+      "about": "About",
+      "appDescription": "$t(app:name) is a Personal Productivity Management Solution, empowering users to regain control over their time and tasks.",
+      "createdBy": "App created by UAB Pomodonė, Vilnius, Lithuania.",
+      "appYear": "2020 © Pomodonė UAB",
+      "appName": "$t(app:name)",
+      "aboutPomodone": "About $t(app:name)",
+      "faq": "F.A.Q.",
+      "feedback": "Feedback",
+      "privacyPolicyLinkText": "Privacy Policy",
+      "tosLinkText": "Terms of Service"
+    },
+    "screenIntroItem": {
+      "skip": "Skip",
+      "letGo": "Let's Go",
+      "trackSmart": "Track smart",
+      "accountTrack": "Connect your account and start tracking time now",
+      "onePlace": "In One Place",
+      "favTask": "Favorite your tasks from different sources for quick access",
+      "beFlex": "Be Flexible",
+      "setCountdown": "Set up your own countdown timers (in settings)",
+      "expelDistr": "Expel Distractions",
+      "slackMate": "Your Slack mates can be notified about your workflow"
+    },
+    "fullScreenTimer": {
+      "integerNumber": "Need a integer positive number...",
+      "durationMinute": "Duration in minutes"
+    },
+    "batteryHelpScreen": {
+      "feature": "Restricting background services on Android may prevent timers from running properly. The Doze feature has been added to restrict background services on the Android 6 and later.",
+      "dozeState": "Once you leave the device unused for a while, it will be in the Doze state after a certain period of time and the network usage will be restricted as well.",
+      "fix": "If you want to fix the problem, you should turn off the battery optimization option. Please refer to the below method for each device.",
+      "openSettings": "Open settings",
+      "guide": "Guide for different Android devices"
     }
+  }
 }

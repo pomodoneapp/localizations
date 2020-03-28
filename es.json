@@ -27,62 +27,63 @@
       }
     },
     "sounds": {
-        "none": "No sound",
-        "timerLoop": "Timer Loop",
-        "timerStart": "Timer Start",
-        "timerEnd": "Timer End",
-        "breakStart": "Break Start",
-        "breakEnd": "Break End",
-        "campfire": "Campfire",
-        "coffeeShop": "Coffee Shop",
-        "copperChimes": "Copper Chimes",
-        "creekWaterFlow": "Creek Water Flow",
-        "forest": "Forest",
-        "forest2": "Forest 2",
-        "oceanWaves": "Ocean Waves",
-        "rainAndWind": "Rain And Wind",
-        "rainInJungle": "Rain in Jungle",
-        "summerMeadow": "Summer Meadow",
-        "еhunderstorm": "Thunderstorm",
-        "train": "Train",
-        "waves": "Waves at the dock"
+      "none": "No sound",
+      "timerLoop": "Timer Loop",
+      "timerStart": "Timer Start",
+      "timerEnd": "Timer End",
+      "breakStart": "Break Start",
+      "breakEnd": "Break End",
+      "campfire": "Campfire",
+      "coffeeShop": "Coffee Shop",
+      "copperChimes": "Copper Chimes",
+      "creekWaterFlow": "Creek Water Flow",
+      "forest": "Forest",
+      "forest2": "Forest 2",
+      "oceanWaves": "Ocean Waves",
+      "rainAndWind": "Rain And Wind",
+      "rainInJungle": "Rain in Jungle",
+      "summerMeadow": "Summer Meadow",
+      "еhunderstorm": "Thunderstorm",
+      "train": "Train",
+      "waves": "Waves at the dock"
     },
     "alerts": {
-        "actions": {
-            "cancel": "Cancel",
-            "delete": "Delete",
-            "ok": "OK"
-        },
-        "delete": {
-            "title": "Delete item",
-            "message": "Are you sure you want to delete this item?"
-        }
+      "actions": {
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "ok": "OK"
+      },
+      "delete": {
+        "title": "Delete item",
+        "message": "Are you sure you want to delete this item?"
+      }
     },
     "notifications": {
-        "onTimerStopped": {
-            "title": "Timer stopped..."
-        },
-        "onBreakStopped": {
-            "title": "Break stopped..."
-        }
+      "onTimerStopped": {
+        "title": "Timer stopped..."
+      },
+      "onBreakStopped": {
+        "title": "Break stopped..."
+      }
     },
     "components": {
-        "checkbox": {
-            "enabled": "Habilitada",
-            "disabled": "Inhabilitada"
-        },
-        "QuickCreate": {
-            "label": "+ add task"
-        },
-        "TickingSoundMenu": {
-            "title": "Sounds"
-        }
+      "checkbox": {
+        "enabled": "Habilitada",
+        "disabled": "Inhabilitada"
+      },
+      "QuickCreate": {
+        "label": "+ add task"
+      },
+      "TickingSoundMenu": {
+        "title": "Sounds"
+      }
     },
     "loginScreen": {
       "loginButtonTitle": "Iniciar sesi\u00f3n",
       "passwordLabel": "Contrase\u00f1a",
       "snackBarTitle": "Conectado",
       "emailLabel": "Correo electr\u00f3nico",
+      "resetPasswordLink": "Reset Password",
       "singInHeaderLabel": "Iniciar sesi\u00f3n"
     },
     "authScreen": {
@@ -128,6 +129,7 @@
       "browser": "Navegador",
       "breakOptions": "Opciones de pausa",
       "theme": "Tema oscuro",
+      "themeTitle": "Theme",
       "detectBattery": "Detectar optimizaci\u00f3n de bater\u00eda",
       "timerOptionSet": "Establecer opciones de temporizador",
       "timerStopNotification": "Aviso de detenci\u00f3n del temporizador",
@@ -144,14 +146,20 @@
       "swipesSettingsHeadline": "Arrastres",
       "leftSwipeAction": "Acci\u00f3n de arrastrar a la izquierda",
       "rightSwipeAction": "Acci\u00f3n de arrastrar a la derecha",
+      "leftSecondSwipeAction": "Left Second Swipe Action",
+      "rightSecondSwipeAction": "Right Second Swipe Action",
       "leftSwipe": "Arrastre a la izquierda",
       "rightSwipe": "Arrastre a la derecha",
+      "leftSecondSwipe": "Left Second Swipe",
+      "rightSecondSwipe": "Right Second Swipe",
       "min": "m\u00edn.",
+      "DNDEnabled": "DND Enabled",
+      "DNDLabel": "DND while timer is ticking",
       "swipeActions": {
         "none": "Ninguno",
         "startTimer": "Iniciar temporizador",
         "done": "Completar tarea",
-        "favorite": "A\u00f1adir\/Quitar favorito",
+        "favorite": "A\u00f1adir/Quitar favorito",
         "edit": "Editar tarea",
         "delete": "Delete Task"
       },
@@ -162,6 +170,11 @@
         "removeFromFavorite": "No favorito",
         "edit": "Editar tarea",
         "delete": "Delete Task"
+      },
+      "themeTypes": {
+        "auto": "Auto",
+        "dark": "Dark",
+        "light": "Light"
       }
     },
     "timerScreen": {
@@ -237,7 +250,7 @@
       "about": "Acerca de",
       "appDescription": "$t(app:name) es una soluci\u00f3n de gesti\u00f3n de productividad personal que permite a los usuarios recuperar el control de su tiempo y tareas.",
       "createdBy": "Aplicaci\u00f3n creada por UAB Pomodon\u00e9, Vilna (Lituania).",
-      "appYear": "2018 \u00a9 Pomodon\u0117 UAB",
+      "appYear": "2020 \u00a9 Pomodon\u0117 UAB",
       "appName": "$t(app:name)",
       "aboutPomodone": "Acerca de $t(app:name)",
       "faq": "FAQ",
